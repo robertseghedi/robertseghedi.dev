@@ -35,7 +35,7 @@ export default function Works() {
   return (
     <>
       <Head>
-        <title>Thakr | Works</title>
+        <title>Robert Seghedi | Works</title>
       </Head>
       <Header />
       <div className="flex items-center justify-center w-screen h-screen">

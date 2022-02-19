@@ -44,7 +44,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Thakr | Contact</title>
+        <title>Robert Seghedi | Contact</title>
       </Head>
       <Header />
       <motion.div initial={{opacity: 0}} animate={{opacity: 1}} className="h-screen w-screen flex flex-row sm:flex-col md:flex-col lg:flex-col justify-center gap-36 sm:gap-0 md:gap-0 lg:gap-0 sm:justify-center md:justify-center lg:justify-center items-center">
@@ -52,8 +52,8 @@ export default function Contact() {
           <h1 className="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-black to-white sm:text-6xl">Contact me</h1>
           <p className="text-xl mt-2">For questions, comments, or really anything</p>
           <div className="mt-2 flex flex-row justify-center items-center">
-            <IconBrandGithub className="mr-2 text-gray-500 hover:text-black transition duration-200 ease-in-out cursor-pointer w-8 h-8" onClick={() => window.open('https://github.com/thakr')}/>
-            <IconMail className="text-gray-500 hover:text-black transition duration-200 ease-in-out cursor-pointer w-8 h-8" onClick={() => window.open('mailto:shaan@thakr.dev')}/>
+            <IconBrandGithub className="mr-2 text-gray-500 hover:text-black transition duration-200 ease-in-out cursor-pointer w-8 h-8" onClick={() => window.open('https://github.com/robertseghedi')}/>
+            <IconMail className="text-gray-500 hover:text-black transition duration-200 ease-in-out cursor-pointer w-8 h-8" onClick={() => window.open('mailto:contact@robertseghedi.dev')}/>
           </div>
         </div>
         
