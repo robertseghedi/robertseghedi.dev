@@ -23,9 +23,9 @@ export default function Works() {
     return (i*392 -5)
   }
   const tiles = [
-    <WorksCard key={1} style={`translateX(-${tileOffsetHelper(offset)}px)`} img="/triviahit.jpg" title="triviahit" desc="“triviahit” is a 1v1 online multiplayer trivia game fit with matchmaking and a ranking system. The frontend was built using React and Tailwind CSS. The backend was built on a Node.js server with express, using Socket.io for real-time data transfer. I also used MongoDB to store user data." srclink="https://github.com/thakr/trivia-app" link="https://triviahit.games"/>,
-    <WorksCard key={2} style={`translateX(-${tileOffsetHelper(offset)}px)`} img="/oneform.jpg" title="oneform" desc="“oneform” was the first full-stack application I built. It is a relatively simple app for creating and sharing forms, but is unique in its own way. Unlike regular forms, questions are answered independently, rather than submitting them all at the end. This is ideal for quizzes and tests, and oneform has support for correct and incorrect answers. It was built using the MERN stack, which includes MongoDB, Express, React, and Node.js." srclink="https://github.com/thakr/oneform.me" link="https://oneform.me"/>,
-    <WorksCard key={3} style={`translateX(-${tileOffsetHelper(offset)}px)`} img="/thakr.jpg" title="thakr.dev" desc="This very website! Built with Next.js, Tailwind CSS, and Typescript. " srclink="#" link="https://thakr.dev"/>,
+    <WorksCard key={1} style={`translateX(-${tileOffsetHelper(offset)}px)`} img="/electro.png" title="ElectroLibrary" desc="Un sistem unic în România, care înglobează întreaga funcționare a bibliotecilor de stat din România, într-o arhitectură robustă și 100% funcțională." srclink="#" link="https://electrolibrary.ro"/>,
+    <WorksCard key={2} style={`translateX(-${tileOffsetHelper(offset)}px)`} img="/cje.png" title="CJE Argeș" desc="Un site superb, realizat în NextJS." srclink="#" link="https://cjearges.ro"/>,
+    <WorksCard key={3} style={`translateX(-${tileOffsetHelper(offset)}px)`} img="/blog.png" title="Markdown blog" desc="Cel mai clean blog posibil" srclink="#" link="https://blog.cjearges.ro"/>,
   ]
   useEffect(() => {
     setWidth(window.innerWidth)
