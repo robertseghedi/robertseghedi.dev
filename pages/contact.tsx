@@ -8,6 +8,7 @@ import { motion } from 'framer-motion';
 import Lottie from 'react-lottie'
 import animationData from "../animation/check.json"
 import loadingAnimationData from '../animation/load.json'
+// 
 
 export default function Contact() {
   const [name, setName] = useState("")
