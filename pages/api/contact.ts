@@ -7,11 +7,11 @@ type Data = {
 }
 
 const transporter = nodemailer.createTransport({
-  host: 'smtp.zoho.com',
+  host: 'smtp.gmail.com',
   port: 465,
   secure: true, //ssl
   auth: {
-      user: 'service@thakr.dev',
+      user: 'office@seghedi.com',
       pass: process.env.MAILPW
   }
 });
@@ -20,8 +20,8 @@ export default function handler(
   res: NextApiResponse<Data>
 ) {
   let mailOptions = {
-    from: '"thakr.dev" <service@thakr.dev>', // sender address (who sends)
-    to: 'shaan38t@gmail.com', // list of receivers (who receives)
+    from: '"Contact - robertseghedi.dev" <office@seghedi.com>', // sender address (who sends)
+    to: 'contact@robertseghedi.dev', // list of receivers (who receives)
     subject: `Contact Form Submission`, // Subject line
     html: `<b>Name: </b>${req.body.name}<br><b>email: </b>${req.body.email}<br><b>IP: </b>${req.headers['x-real-ip']} <br><b>Message: </b><p>${req.body.message}</p>` // html body
 };
