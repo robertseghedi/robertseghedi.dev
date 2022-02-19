@@ -7,11 +7,11 @@ type Data = {
 }
 
 const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
+  host: process.env.MAIL_HOST,
   port: 465,
   secure: true, //ssl
   auth: {
-      user: 'office@seghedi.com',
+      user: process.env.MAIL,
       pass: process.env.MAILPW
   }
 });
